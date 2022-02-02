@@ -91,7 +91,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://seyiportfolio.netlify.app)
+- Website - [My website](https://seyiportfolio.netlify.app)
+- 
 - Frontend Mentor - [@xoluwaseyi](https://www.frontendmentor.io/profile/xoluwaseyi)
 - Twitter - [@xoluwaseyi](https://www.twitter.com/xoluwaseyi)
 
