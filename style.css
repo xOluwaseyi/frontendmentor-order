@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  font-size: 16px;
+}
+
+.hero {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+/* card */
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  width: 400px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
+
+/* card main text */
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.card-text h1 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.card-text p {
+  color: hsl(224, 23%, 55%);
+  font-size: 0.8em;
+  width: 80%;
+  line-height: 1.7;
+  font-weight: bold;
+}
+
+/* card plan */
+
+.card-plan {
+  width: 80%;
+  background-color: hsl(225, 100%, 96%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card-plan img {
+  height: 35px;
+  width: 35px;
+}
+
+.card-plan a {
+  color: hsl(245, 75%, 52%);
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.card-plan a:hover {
+  color: hsl(245, 92%, 65%);
+}
+
+.card-plan-text {
+  font-size: 0.9em;
+}
+
+.card-plan-text p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+/* card button */
+
+.card-button {
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 90%;
+  height: 40px;
+  box-shadow: 0 6px 15px grey;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(245, 92%, 65%);
+}
+
+/* card cancel */
+
+.card-cancel {
+  margin-bottom: 50px;
+}
+
+.card-cancel a {
+  text-decoration: none;
+  color: hsl(224, 19%, 46%);
+  font-weight: bolder;
+}
+
+.card-cancel a:hover {
+  color: rgb(27, 26, 26);
+}
+
+/* footer */
+
+.attribution {
+  font-size: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 350px;
+  }
+
+  .card-plan-text {
+    font-size: 0.7em;
+  }
+
+  .card-plan-text a {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    width: 300px;
+  }
+
+  .card-plan {
+    width: 85%;
+  }
+
+  .card-plan img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .card-plan a {
+    font-size: 0.9em;
+  }
+}
